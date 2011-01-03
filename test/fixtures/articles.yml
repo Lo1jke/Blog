@@ -2,10 +2,14 @@
 
 one:
   title: MyString
+  location: MyString
+  excerpt: MyString
   body: MyText
-  published_at: 2011-01-02 19:05:46
+  published_at: 2011-01-02 19:17:29
 
 two:
   title: MyString
+  location: MyString
+  excerpt: MyString
   body: MyText
-  published_at: 2011-01-02 19:05:46
+  published_at: 2011-01-02 19:17:29
