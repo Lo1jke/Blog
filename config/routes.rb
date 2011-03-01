@@ -1,4 +1,8 @@
 Blog::Application.routes.draw do
+  get "say/hello"
+
+  get "say/goodbye"
+
   root :to => "articles#index"
   resources :articles
 
