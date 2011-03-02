@@ -5,6 +5,7 @@
 #
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Mayor.create(:name => 'Daley', :city => cities.first)
+<<<<<<< HEAD
 user = User.create :email => 'mary@example.com', 
                    :password => 'guessit',
                    :password_confirmation => 'guessit'
@@ -22,3 +23,5 @@ user.articles.create :title => 'One-to-many associations',
 user.articles.create :title => 'Associations',
               :body => "Active Record makes working with associations easy..",
               :published_at => Date.today
+=======
+>>>>>>> dd7843ec85dd3812c9acf851fd3fd8fce436a4e6

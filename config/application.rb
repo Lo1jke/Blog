@@ -6,7 +6,11 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env) if defined?(Bundler)
 
+<<<<<<< HEAD
 module Blog
+=======
+module Blog3
+>>>>>>> dd7843ec85dd3812c9acf851fd3fd8fce436a4e6
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
@@ -21,7 +25,10 @@ module Blog
 
     # Activate observers that should always be running.
     # config.active_record.observers = :cacher, :garbage_collector, :forum_observer
+<<<<<<< HEAD
     config.active_record.observers = :comment_observer
+=======
+>>>>>>> dd7843ec85dd3812c9acf851fd3fd8fce436a4e6
 
     # Set Time.zone default to the specified zone and make Active Record auto-convert to this zone.
     # Run "rake -D time" for a list of tasks for finding time zone names. Default is UTC.

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Blog::Application.routes.draw do
   
   get "say_somethings/index"
@@ -12,6 +13,9 @@ Blog::Application.routes.draw do
   root :to => "articles#index"
   resources :articles
 
+=======
+Blog3::Application.routes.draw do
+>>>>>>> dd7843ec85dd3812c9acf851fd3fd8fce436a4e6
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
