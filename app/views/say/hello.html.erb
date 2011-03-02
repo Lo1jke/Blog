@@ -1,7 +1,10 @@
 <h1>Hello From Rails</h1>
 <% if @name == nil %> 
-<%= render 'add' %>
+	<% form_tag :method => "create" do %>
+	<p>User Name:<%= text_field 'user', 'name' %></p>
+	<%= submit_tag "Say Hello!"%>
+	<% end %>
 <% else %>
-<%= @name %>
+	Hello, <%= render @name %>!
 <% end %>
 <p> <%= @time %> </p>

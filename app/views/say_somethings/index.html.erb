@@ -1,0 +1,23 @@
+<h1>Listing say_somethings</h1>
+
+<table>
+  <tr>
+    <th>User name</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @say_somethings.each do |say_something| %>
+  <tr>
+    <td><%= say_something.user_name %></td>
+    <td><%= link_to 'Show', say_something %></td>
+    <td><%= link_to 'Edit', edit_say_something_path(say_something) %></td>
+    <td><%= link_to 'Destroy', say_something, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Say something', new_say_something_path %>

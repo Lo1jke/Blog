@@ -1,0 +1,10 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>User name:</b>
+  <%= @say_something.user_name %>
+</p>
+
+
+<%= link_to 'Edit', edit_say_something_path(@say_something) %> |
+<%= link_to 'Back', say_somethings_path %>
